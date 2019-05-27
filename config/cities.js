@@ -3,7 +3,7 @@ module.exports = [
         "id": 1036,
         "name": "עומר",
         "region": "south",
-        "expire": 10
+        "expire": 90
     },
     {
         "id": 1048,
@@ -135,6 +135,6 @@ module.exports = [
         "id": 2008,
         "name": "נשר",
         "region": "north",
-        "expire": 60
+        "expire": 10
     },
 ]
