@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+    <env:Header/>
+    <env:Body>
+        <ns3:alert xmlns:ns2="http://evigilo.net/osb.nationalalert.hfc.idf.alert" xmlns:ns3="urn:oasis:names:tc:emergency:cap:1.2" xmlns:ns4="http://evigilo.net/osb.nationalalert.hfc.idf.osb.coherence" xmlns:ns5="http://evigilo.net/osb.nationalalert.hfc.idf.parameters">
+            <ns3:identifier>50fc68cc-d7bd-4ea6-a707-2901b2e0773e</ns3:identifier>
+            <ns3:sender>msl</ns3:sender>
+            <ns3:sent>2019-05-12T15:29:32+03:00</ns3:sent>
+            <ns3:status>Exercise</ns3:status>
+            <ns3:msgType>Update</ns3:msgType>
+            <ns3:scope>Public</ns3:scope>
+            <ns3:restriction>2</ns3:restriction>
+            <ns3:incidents>4713337753143</ns3:incidents>
+            <ns3:info>
+                <ns3:category>Security</ns3:category>
+                <ns3:event>Missile</ns3:event>
+                <ns3:urgency>Immediate</ns3:urgency>
+                <ns3:severity>Extreme</ns3:severity>
+                <ns3:certainty>Observed</ns3:certainty>
+                <ns3:audience>sami</ns3:audience>
+                <ns3:eventCode>
+                    <ns3:valueName>SourceSender</ns3:valueName>
+                    <ns3:value>msl</ns3:value>
+                </ns3:eventCode>
+                <ns3:expires>2019-05-12T15:30:39+03:00</ns3:expires>
+                <ns3:parameter>
+                    <ns3:valueName>AlertID</ns3:valueName>
+                    <ns3:value>04361e1d-3f65-42c9-8b29-8a7f020eed93</ns3:value>
+                </ns3:parameter>
+                <ns3:area>
+                    <ns3:areaDesc>CITIES</ns3:areaDesc>
+                    <ns3:geocode>
+                        <ns3:valueName>CRS</ns3:valueName>
+                        <ns3:value>ESPG:4326</ns3:value>
+                    </ns3:geocode>
+                    <ns3:geocode>
+                        <ns3:valueName>Areas</ns3:valueName>
+                        <ns3:value>1036,1048,1049,1070</ns3:value>
+                    </ns3:geocode>
+                </ns3:area>
+            </ns3:info>
+        </ns3:alert>
+    </env:Body>
+</env:Envelope>
