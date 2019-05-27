@@ -4,6 +4,7 @@ const router = express.Router();
 const Twitter = require('twitter');
 const TwitterService = require('../services/twitter');
 const areaSort = require('../services/area-sort');
+const map = require('../services/map');
 
 let client = new Twitter({
   consumer_key: 'ZodQQ7OaRigtbhZfW9EPvLD4t',
@@ -24,6 +25,7 @@ router.post('/get', (req, res) => {
       let polygons = areas.split(',').map((item) => parseInt(item) );
 
       // Now we have Polygons Ids
+      map.map(polygons);
       let regionsArray = areaSort.sort(polygons);
       regionsArray.forEach((region) => {
         TwitterService.postAlert(region.client, region.areas);
