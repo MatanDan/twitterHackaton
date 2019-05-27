@@ -2,7 +2,6 @@ const express = require('express');
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
-const logger = require('./services/accesslog');
 const HttpStatus = require('http-status-codes');
 const cors = require('cors');
 
@@ -14,7 +13,6 @@ const alertsRouter = require('./routes/alerts');
 let app = express();
 
 app.set('view engine', 'html');
-app.use(logger);
 app.use(bodyParser.text({ type: 'text/plain' }));
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
