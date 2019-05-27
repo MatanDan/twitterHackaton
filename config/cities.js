@@ -3,7 +3,7 @@ module.exports = [
         "id": 1036,
         "name": "עומר",
         "region": "south",
-        "expire": 90
+        "expire": 10
     },
     {
         "id": 1048,

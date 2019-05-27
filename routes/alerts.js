@@ -28,6 +28,7 @@ router.post('/get', (req, res) => {
       map.map(polygons);
       let regionsArray = areaSort.sort(polygons);
       regionsArray.forEach((region) => {
+        if (region.areas.length)
         TwitterService.postAlert(region.client, region.areas);
       });
     }
