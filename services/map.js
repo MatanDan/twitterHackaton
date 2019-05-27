@@ -21,10 +21,9 @@ module.exports.map = (cityIds) => {
             })
         }
     });
-}
+};
 
 module.exports.draw = () => {
-
     let URL = "http://maps.googleapis.com/maps/api/staticmap?&size=600x400&style=visibility:on \
     &style=feature:water%7Celement:geometry%7Cvisibility:on \
     &style=feature:landscape%7Celement:geometry%7Cvisibility:on";
@@ -43,4 +42,4 @@ module.exports.draw = () => {
     URL.concat("&key=AIzaSyAjSzRRqxvRU0S6CeplhFH2MjcknDx-l0g");
     distributedCities = [];
     return URL;
-}
+};

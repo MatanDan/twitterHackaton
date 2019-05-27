@@ -8,6 +8,7 @@ const cors = require('cors');
 // Routes import
 const indexRouter = require('./routes/index');
 const alertsRouter = require('./routes/alerts');
+const infoRouter = require('./routes/information');
 
 // Express application settings
 let app = express();
@@ -21,6 +22,7 @@ app.use(cors());
 // Routers middleware
 app.use('/', indexRouter);
 app.use('/alerts', alertsRouter);
+app.use('/information', infoRouter);
 
 // 404 Handler
 app.use((req, res) => {
