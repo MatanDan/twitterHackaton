@@ -1,4 +1,3 @@
-const twitter = require('twitter');
 const fs = require('fs');
 
 class TwitterService {
