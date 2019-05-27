@@ -90,8 +90,50 @@ module.exports = [
         "expire": 90
     },
     {
-        "id": 1600,
-        "name": "חיפה",
+        "id": 2001,
+        "name": "חיפה מפרץ",
+        "region": "north",
+        "expire": 60
+    },
+    {
+        "id": 2002,
+        "name": "חיפה קריות",
+        "region": "north",
+        "expire": 60
+    },
+    {
+        "id": 2003,
+        "name": "חיפה מערב",
+        "region": "north",
+        "expire": 60
+    },
+    {
+        "id": 2004,
+        "name": "חיפה מרכז הכרמל",
+        "region": "north",
+        "expire": 60
+    },
+    {
+        "id": 2005,
+        "name": "החותרים",
+        "region": "north",
+        "expire": 60
+    },
+    {
+        "id": 2006,
+        "name": "טירת הרכמל",
+        "region": "north",
+        "expire": 60
+    },
+    {
+        "id": 2007,
+        "name": "כפר גלים",
+        "region": "north",
+        "expire": 60
+    },
+    {
+        "id": 2008,
+        "name": "נשר",
         "region": "north",
         "expire": 60
     },
