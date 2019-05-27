@@ -11,7 +11,7 @@ module.exports = [
     },
     {
         "id": 1049,
-        "name": "בער שבע מרכז",
+        "name": "באר שבע מרכז",
         "region": "south"
     },
     {
